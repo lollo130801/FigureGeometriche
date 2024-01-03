@@ -6,7 +6,7 @@ public class Quadrato implements FigureGeometriche {
             throw new IllegalArgumentException(); 
         this.lato=l;
     }
-
+//boh
     //metodo per cercare l'area
     public double getArea(){
         return Math.pow(lato,2);
