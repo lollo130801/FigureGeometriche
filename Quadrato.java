@@ -6,7 +6,7 @@ public class Quadrato implements FigureGeometriche {
             throw new IllegalArgumentException(); 
         this.lato=l;
     }
-
+//boh
     //metodo per cercare l'area
     public double getArea(){
         return Math.pow(lato,2);
@@ -16,4 +16,12 @@ public class Quadrato implements FigureGeometriche {
     public double getPerimeter(){
         return 4*lato;
     }
+
+    //metodo che stampa lato, area e perimetro del quadrato
+    public void printValues(){
+        System.out.println("Lato: " + lato);
+        System.out.println("Area: " + this.getArea());
+        System.out.println("Perimetro: " + this.getPerimeter());
+    }
+    //banana002
 }
