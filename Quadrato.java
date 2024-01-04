@@ -23,4 +23,5 @@ public class Quadrato implements FigureGeometriche {
         System.out.println("Area: " + this.getArea());
         System.out.println("Perimetro: " + this.getPerimeter());
     }
+    //banana002
 }
