@@ -16,4 +16,11 @@ public class Quadrato implements FigureGeometriche {
     public double getPerimeter(){
         return 4*lato;
     }
+
+    //metodo che stampa lato, area e perimetro del quadrato
+    public void printValues(){
+        System.out.println("Lato: " + lato);
+        System.out.println("Area: " + this.getArea());
+        System.out.println("Perimetro: " + this.getPerimeter());
+    }
 }
